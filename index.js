@@ -1,6 +1,14 @@
-/* console.log("To get something you never had, you have to do something you never did.");
-console.log("This was last console log"); */
 
-user = {id:01, userName:"Shourav", job:"Web developments"} ;
+const user = {id:01, userName:"Shourav", job:"Web developments"} ;
+
+const stringifiedUser = JSON.stringify(user);
 
 console.log(user);
+console.log(stringifiedUser);
+
+/* 
+Question: What is the fullform of JSON ? 
+Answer: JSON stands for JavaScript Object Notation. 
+
+
+*/
